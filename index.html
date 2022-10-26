@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Void Countdown</title>
+  </head>
+  <body>
+    <div onclick="showContent()" id="before">Click anywhere to continue...</div>
+    <div id="content">
+      <img
+        src="https://i.giphy.com/media/10HkXhe28AA39C/giphy.webp"
+        alt=""
+        srcset=""
+        id="voidLogo"
+      />
+      <h1 id="title">Void Countdown</h1>
+      <h2 id="subtitle">2022 • 2023</h2>
+      <div id="countdown">
+        <span
+          ><div id="days"></div>
+          D</span
+        >
+
+        <span
+          ><div id="hours"></div>
+          H</span
+        >
+
+        <span
+          ><div id="mins"></div>
+          Min</span
+        >
+
+        <span
+          ><div id="secs"></div>
+          Seg</span
+        >
+
+        <span
+          ><div id="ms"></div>
+          ms</span
+        >
+      </div>
+      <audio id="music" preload="auto" src="gravity.mp3#t=00:05:34"></audio>
+      <div id="toggleAudio">
+        <img
+          id="muteButton"
+          src="mute_button.png"
+          alt=""
+          srcset=""
+        />
+        <img
+          id="musicButton"
+          src="music_button.png"
+          alt=""
+          srcset=""
+        />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
