@@ -109,6 +109,12 @@ audio {
     font-size: 1.2em;
   }
 
+  #countdown {
+    display: grid;
+    justify-content: center;
+    width: 80%;
+   }
+
   #before {
     display: flex;
     justify-content: center;
