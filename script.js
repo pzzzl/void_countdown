@@ -110,9 +110,9 @@ function setName(name) {
     emoji = '🍁'
   }
 
-  if(name == 'RODRIGO') {
-    emoji = '❓'
-  }
+  // if(name == 'RODRIGO') {
+  //   emoji = '❓'
+  // }
 
   if(name == 'THG') {
     emoji = '💢'
