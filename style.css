@@ -64,7 +64,7 @@ img#voidLogo {
 }
 
 img#muteButton, img#musicButton {
-  width: 4%;
+  width: 2%;
   filter: invert(50%);
 }
 
