@@ -46,6 +46,13 @@ body {
   cursor: pointer;
 }
 
+#names {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-bottom: 50px;
+  color: orange;
+}
+
 #countdown {
   width: 60%;
   display: grid;
