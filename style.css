@@ -113,6 +113,10 @@ audio {
     justify-content: center;
     width: 80%;
    }
+
+   #before {
+    text-align: center;
+   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
