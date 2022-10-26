@@ -64,13 +64,13 @@ function showContent() {
 }
 
 function playMusic() {
-  // webElements.music.play();
+  webElements.music.play();
   webElements.muteButton.style.display = "none";
   webElements.musicButton.style.display = "block";
 }
 
 function pauseMusic() {
-  // webElements.music.pause();
+  webElements.music.pause();
   webElements.muteButton.style.display = "block";
   webElements.musicButton.style.display = "none";
 }
