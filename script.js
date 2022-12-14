@@ -78,6 +78,7 @@ function pauseMusic() {
 const names = [
   "CJ",
   "PZL",
+  "CAROL",
   "ALFREDO",
   "THG",
   "BECCA",
